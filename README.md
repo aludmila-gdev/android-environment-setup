@@ -85,12 +85,32 @@ Now that the initial configurations are done, let's test them by building a pre-
 <img align="center" alt="Tip time app running" height="500" src="https://github.com/knludi/android-environment-setup/blob/master/README/home-android-studio.png">
 </div>
 
+2. Open the project you downloaded earlier: 
 
+<div align="center">
+<img align="center" alt="Tip time app running" height="500" src="https://github.com/knludi/android-environment-setup/blob/master/README/open-project.png">
+</div>
 
+3. [Create a virtual device] following the guideline;
+
+4. Once you have a device created, use the play icon to build and view the app in the emulator:
+
+<div align="center">
+<img align="center" alt="Tip time app running" height="50" src="https://github.com/knludi/android-environment-setup/blob/master/README/play-app.png">
+</div>
+
+5. Wait for the app to build, this may take a few minutes. At the end you should see a screen similar to this:
+
+<div align="center">
+<img align="center" alt="Tip time app running" height="500" src="https://github.com/knludi/android-environment-setup/blob/master/README/environment-working.png">
+</div>
+
+6. Congratulations!! you have a completely configured android environment, and now you can start building your apps!🥳 
 
    [download android studio]: <https://developer.android.com/studio>
    [.zshrc file]: <https://github.com/knludi/android-environment-setup/blob/master/.zshrc>
    [Previous Java releases]: <https://www.oracle.com/java/technologies/downloads/archive/>
+   [Create a virtual device]: <https://developer.android.com/studio/run/managing-avds>
    [Java SE Development Kit 11.0.2]: <https://download.oracle.com/otn/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_osx-x64_bin.dmg>
    [Java SE Development Kit 8u251]: <https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox>
    [Iterm]: <https://iterm2.com/>
