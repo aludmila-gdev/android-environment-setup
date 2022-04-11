@@ -1,5 +1,26 @@
 # Android Environment Setup
 
+About
+
+This repository is intended to share the way I like to configure my development environment to work with Android applications.
+
+For this, I performed the steps on a computer with the Mac OS X system, however the available links will possibly have instructions to perform the steps on other platforms as well!
+
+## Summary
+
+1. [Install Android Studio](#install-android-studio)
+2. [Install Java](#install-java)
+3. [Install Homebrew](#install-homebrew)
+4. [Install iTerm2](#install-iterm2)
+5. [Install zsh](#install-zsh)
+6. [Install oh-my-zsh](#install-oh-my-zsh)
+7. [Configure your .zshrc file](#configure-your-zshrc-file)
+8. [Configure GitHub credentials](#configure-github-credentials)
+9. [Clone a test project](#clone-a-test-project)
+10. [Open and run the test project](#open-and-run-the-test-project)
+10. [References](#references)
+
+
 ## Install Android Studio
 1. [Download android studio]
 2. Install android studio
@@ -67,7 +88,7 @@ Now that your [Iterm] is configured, we can start using it instead of the standa
 
 3. Now you will need to follow the documentation available on github for [Generating a new SSH key and adding it to the ssh-agent] and [Adding a new SSH key to your GitHub account].
 
-## Download a test project 
+## Clone a test project 
 
 After setting up your ssh keys, you should be able to clone a test repository to build an Android project. To do this, run the following command in your iterm:
 ```sh
@@ -107,6 +128,14 @@ Now that the initial configurations are done, let's test them by building a pre-
 
 6. Congratulations!! you have a completely configured android environment, and now you can start building your apps!🥳 
 
+
+## References
+- [Dillinger | The Last Markdown Editor, Ever](https://dillinger.io/)
+- [Androidfor Developers](https://developer.android.com/)
+- [Text to kebab-case (dash-case) Online Conterter](https://textedit.tools/kebabcase)
+
+
+
    [download android studio]: <https://developer.android.com/studio>
    [.zshrc file]: <https://github.com/knludi/android-environment-setup/blob/master/.zshrc>
    [Previous Java releases]: <https://www.oracle.com/java/technologies/downloads/archive/>
@@ -116,8 +145,5 @@ Now that the initial configurations are done, let's test them by building a pre-
    [Iterm]: <https://iterm2.com/>
    [Generating a new SSH key and adding it to the ssh-agent]: <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
    [Adding a new SSH key to your GitHub account]: <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
-
-
-
-   
+ 
 
