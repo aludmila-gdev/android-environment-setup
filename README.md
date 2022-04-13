@@ -15,6 +15,7 @@ For this, I performed the steps on a computer with the Mac OS X system, however 
 5. [Install zsh](#install-zsh)
 6. [Install oh-my-zsh](#install-oh-my-zsh)
 7. [Configure your .zshrc file](#configure-your-zshrc-file)
+8. [Install NVM](#install-nvm)
 8. [Configure GitHub credentials](#configure-github-credentials)
 9. [Clone a test project](#clone-a-test-project)
 10. [Open and run the test project](#open-and-run-the-test-project)
@@ -71,6 +72,19 @@ open .
 ```sh
 alias gitUserName="git config user.name \"Your Name\""
 alias gitUserEmail="git config user.email \"@gmail.com\""
+```
+
+## Install NVM
+1. Open the iterm
+2. Copy the commands below respectively and [ENTER] after each of them
+```sh
+brew update
+```
+```sh
+ brew install nvm 
+```
+```sh
+ mkdir ~/.nvm 
 ```
 
 ## Configure GitHub credentials
