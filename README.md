@@ -84,7 +84,7 @@ brew update
  brew install nvm 
 ```
 ```sh
- mkdir ~/.nvm 
+ mkdir $HOME/.nvm
 ```
 
 ## Configure GitHub credentials
